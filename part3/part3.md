@@ -2,7 +2,7 @@
 2. To fix this bug, I would use the Number(value) function, which converts the string to the number that would represent the string's numeric value. I would use it on both num1 and num2 and then add them up at line 9.
 
 
-1. citylots.json
+1\. citylots.json
 2. part2.js
 3. 11.7 MB
 4. 89 ms
