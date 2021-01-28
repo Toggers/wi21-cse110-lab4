@@ -10,10 +10,10 @@
 10. Line 12 will produce an error because discountedPrice was declared in the for loop using const, which means it is only visible in the for loop.\
 11. Line 13 will produce an error because finalPrice is a const variable, meaning it cannot be reassigned a value in the for loop.\
 12. Assuming line 7 is gone since it causes the error, then the function will return the array [0,0,0]. Since final price is a const function-level variable, it can never change from the value 0. Therefore, the array is simply filled with 0's.\
-13. A. student.name
-    B. student['Grad Year']
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
+13. A\. student.name\
+    B. student['Grad Year']\
+    C. student.greeting()\
+    D. student['Favorite Teacher'].name\
     E. student.courseLoad[0]\
 14. A. 32 because the integer 2 is converted to '2', and then string concatenation is performed.
     B. 1 because the subtraction overrides the string '3' and calculates as an integer.
