@@ -1,5 +1,5 @@
 1\. The bug is that at line 9, num1 and num2 are being concatenated as a string instead of being added together like integers.\
-2. To fix this bug, I would use the Number(value) function, which converts the string to the number that would represent the string's numeric value. I would use it on both num1 and num2 and then add them up at line 9.\
+2. To fix this bug, I would use the Number(value) function, which converts the string to the number that would represent the string's numeric value. I would use it on both num1 and num2 and then add them up at line 9.
 
 
 1\. citylots.json\
@@ -10,4 +10,4 @@
 6. Apache\
 7. Tue, 26 Jan 2021 22:14:13 GMT\
 8. application/json\
-9. fetchData()\
+9. fetchData()
