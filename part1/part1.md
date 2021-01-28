@@ -32,7 +32,7 @@
 16. === checks the equality without type conversion, while == checks the equality by converting operands of different types to numbers.\
 17. 'How are you?' gets printed because true is converted to the integer 1, which is not equal to the integer 2. For the else if condition, the integer 2 is converted to the boolean true, so the appropriate string is printed. \
 19. The result is [6,8,10]. In the first iteration of the loop, the new array will push the value of doSomething(1, function(1 + 2)). The new callback refers to the function in the for loop, so it executes function(3) = 6. This process repeats itself for the length of the array and then finally returns the new array.\
-21. \1
-    4\
-    3\
+21. 1
+    4
+    3
     2
